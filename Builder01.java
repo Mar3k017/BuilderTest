@@ -8,6 +8,7 @@ public class Builder01 {
                 //.dateOfProduce(new Date1.Builder().year(2016).month(12).day(6).Build())
                 .dateOfProduce(new Date1.Builder().year(2015).month(12).day(30).Build())
                 .build();
+		//Attention please -this changes was commited only for my own testing repository!! 
         
         System.out.println("Car: " + car);
     }
