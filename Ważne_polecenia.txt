@@ -1,0 +1,10 @@
+#kopiowanie danej galêzi reposytorium
+git clone -b <branch> <remote_repo>
+
+#Example:
+
+git clone -b my-branch git@github.com:user/myproject.git
+
+#Alternative (no public key setup needed):
+
+git clone -b my-branch https://git@github.com/username/myproject.git
